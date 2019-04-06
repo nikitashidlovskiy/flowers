@@ -81,15 +81,18 @@ header .menu div a:hover {
 .card {
   position: relative;
 }
-.card div {
+.card .card-item {
   height: 387px;
-  width: 370px;
+  width: 30%;
   position: relative;
   border: 1px solid #803eb1;
 }
-.card div img {
+.card .card-item img {
   position: absolute;
   width: 100%;
+}
+.card .card-item P {
+  position: absolute;
 }
 .info {
   width: 70%;
@@ -147,4 +150,5 @@ footer .proofs {
 }
 footer .proofs .author {
   text-align: center;
+  margin-top: 2%;
 }
