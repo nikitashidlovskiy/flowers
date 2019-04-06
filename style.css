@@ -1,11 +1,11 @@
 #slider-wrap{ 
-	margin-top: 90px;
-	width: 1200px;;
-	margin-left: 15%; 
+	margin-top: 4%;
+	width: 70%;;
+	margin-left: 20%; 
 	}
 #slider{ 
-	width: 1170px;;
-	height:313px;
+	width: 90%;;
+	height:230pt;
 	overflow: hidden;
 	border:#eee solid 10px;
 	position:relative;}
@@ -14,10 +14,10 @@
 	height:100%;
 	}
 .sli-links{  
-	margin-top:10px;
+	margin-top:1%;
 	text-align:center;}
 .sli-links .control-slide{
-	margin:2px;
+	margin:0.5%;
 	display:inline-block;
 	width:16px;
 	height:16px;
@@ -31,7 +31,7 @@
 	background-position:center top;}
 #prewbutton, #nextbutton{ 
 	display:block;
-	width:15px;
+	width:1.5%;
 	height:100%;
 	position:absolute;
 	top:0;
@@ -41,9 +41,9 @@
 	opacity:0.8;
 	z-index:3;
 	outline:none !important;}
-#prewbutton{left:10px;}
+#prewbutton{left:1%;}
 #nextbutton{
-	right:10px;
+	right:1%;
 	background:url(images/arrowBg.png) right center no-repeat;}
 #prewbutton:hover, #nextbutton:hover{
 	opacity:1;}
