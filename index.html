@@ -4,24 +4,128 @@
     <head>
         <meta charset="utf-8" />
         <title>Flower</title>
+        <link rel="icon" href="images/logo.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     </head>
     
     <header>
-
+        <div class=""> 
+            <div class="header-item">
+                <img src="images/logo.png" alt="logo" class="logo">
+            </div>
+            <div class="nav">
+                <form>
+                    <input type="text" placeholder="Поиск товаров">
+                    <button type="submit"><img src="images/search.png" ></button>
+                  </form>    
+                  <button type="submit" class="man" > <img src="images/sign-in.png" ></button>
+                  <button type="submit" class="shop"> <img src="images/market.png" ></button>              
+            </div>
+        </div>
+       <div class="menu row ">
+           <div><a href="">Главная</a></div>
+           <div><a href="">Каталог</a></div>
+           <div><a href="">Оплата</a></div>
+           <div><a href="">Акции</a></div>
+       </div>
     </header>
 
     <body>
         
         <main>
+            <section class="slideholder">
+                <script src="jquery-1.7.2.min.js"></script>
+                <script src="script.js"></script>
+                <link href="style.css" rel="stylesheet" />
+                <div id="slider-wrap">
+                    <div id="slider">
+                        <div class="slide"><img src="images/slider-bg.png" width="1170" height="313"></div>
+                        <div class="slide"><img src="images/slider-bg.png" width="1170" height="313"></div>
+                        <div class="slide"><img src="images/slider-bg.png" width="1170" height="313"></div>
+                    </div>
+                </div>
+            </section>
+
+           <!-- <section class="card">
+                <div class="row">
+                    <div > 
+                        <img src="images/flower1.jpg" >
+                    </div>
+                    <div>
+                        <img src="images/flower2.jpg" >
+                    </div>
+                    <div>
+                        <img src="images/flower3.jpg" >
+                    </div>
+                </div>
+            </section>-->
+
+            <section class="info">
+                <h1>Доставка цветов</h1>
+                <p>Россия — большая и удивительная страна. Она знаменита своей богатой историей и разнообразием, и мы, как магазин по доставке цветов, предлагаем Вам то же самое. Компания LolaFlora гордится тем, что мы работаем в России в качестве флориста.</p>
+                <p>Окунитесь в волшебство этой прекрасной страны, заказав цветы у проверенных местных флористов. Мы предоставляем свежие, ароматные цветы в любой уголок России. Вы не найдете больше нигде. Мы занимаемся онлайн доставкой цветов в России, чтобы как только у Вас возникло желание подарить букет с доставкой — мы бы смогли выполнить его моментально.
+                        LolaFlora предлагает доставку цветов в тот же день по России. Таким образом, вы можете заказать цветы онлайн и получить цветы в тот же день, в который вы их заказали. Быстро и просто. Дарить цветы — замечательно, и особенно эта традиция дарить букеты в качестве подарка, популярна в России. Это жест, который идеально сочетается с богатством и культурой страны в целом. Lolaflora - это надежный цветочный магазин, который удовлетворит любые потребности.</p>
+            </section>
 
         </main>
 
     </body>
 
     <footer>
-
+        <div class="footer-nav row">
+            <div class="nav-item">
+                 <h2> Соцсети</h2>
+                 <div class="nav-set">
+                     <div class="row">
+                        <div ><a href="https://www.facebook.com"><img src="images/facebook.svg"></a></div>
+                        <div><a href="https://www.instagram.com"><img src="images/instagram.svg"></a></div>
+                        <div><a href="https://www.twitter.com"><img src="images/twitter.svg"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item">
+                <h2>Помощь</h2>
+                <a  class="row">Свяжитесь с нами</a>
+                <a  class="row">FAQ</a>
+                <a  class="row">Карта сайта</a   >
+            </div>
+            <div class="nav-item">
+                <h2>Навигация</h2>
+                <a  class="row">О магазине</a>
+                <a  class="row">Наши новости</a>
+                <a  class="row">Блог</a>
+                <a  class="row">Почему мы</a>
+                <a  class="row">Вопросы и ответы</a>
+                <a  class="row">Связь с нами</a>
+            </div>
+            <div class="nav-item">
+                <h2>Дополнительно</h2>
+                <a  class="row">Товары со скидкой</a>
+                <a  class="row">Возврат товара</a>
+                <a  class="row">Гарантия качества</a>
+                <a  class="row">Сообщения в открытках</a>
+                <a  class="row">Способ оплаты </a>
+                <a  class="row">Адреса салонов</a>
+            </div>
+        </div>
+        <div class="countries ">
+            <div class="countries-set row">
+                <div class="countries-item">Беларусь</div>
+                <div class="countries-item">Украина</div>
+                <div class="countries-item">Россия</div>
+                <div class="countries-item">Польша</div>
+                <div class="countries-item">Латвия</div>
+                <div class="countries-item">Литва</div>
+            </div>
+        </div>
+        <div class="proofs">
+            <div class="proofs-item">
+                Где бы ни находились ваши близкие, Lolaflora сможет доставить им цветочные подарки! Воспользуйтесь нашей профессиональной и дружной международной службой доставки цветов, чтобы отправить красивые цветы вашим дорогим друзьям и родственникам на праздники и особые даты или просто так. Цветы — это универсальный жест, понятный на любом языке. Расстояние не должно помешать вам отправить радостные эмоции своим близким — выберите свой идеальный букет от LolaFlora прямо сейчас.
+            </div>
+            <div class="author">Copyright © LolaFlora B.V.</div>
+        </div>
     </footer>
 </html>
+
