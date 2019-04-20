@@ -48,10 +48,10 @@ header .menu {
   margin-top: 2%;
   height: 37pt;
   background-color: #7b2faf;
-  font-size: 24pt;
   text-align: left;
 }
 header .menu div {
+  margin-top: 1%;
   padding-left: 5%;
   border-left: 1px solid #a959e7;
   border-right: 1px solid #a959e7;
@@ -65,6 +65,20 @@ header .menu div a:hover {
 }
 .info {
   margin-left: 10%;
+}
+.info .pr {
+  font-size: 10px;
+}
+.info .by {
+  font-size: 2em;
+}
+.info .by .down {
+  height: 52px;
+  background-color: #56d362;
+}
+.info .by .down a {
+  text-decoration: none;
+  color: #ffffff;
 }
 footer {
   background-color: #caacf5;
@@ -92,7 +106,6 @@ footer .countries {
 }
 footer .countries .countries-item {
   margin-top: 1%;
-  font-size: 17pt;
 }
 footer .proofs {
   margin-top: 2%;

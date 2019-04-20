@@ -67,12 +67,14 @@ header .menu div a:hover {
   position: absolute;
 }
 .card .card-item {
+  margin-bottom: 30px;
   text-align: center;
-  margin-left: 5%;
+  margin-left: 30px;
   position: relative;
   border: 1px solid #803eb1;
 }
 .card .card-item img {
+  background: linear-gradient(to center, #803eb1);
   position: relative;
   width: 100%;
 }
