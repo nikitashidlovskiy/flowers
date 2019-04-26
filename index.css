@@ -53,8 +53,6 @@ header .menu {
 header .menu div {
   padding-top: 1%;
   padding-left: 10%;
-  border-left: 1px solid #a959e7;
-  border-right: 1px solid #a959e7;
 }
 header .menu div a {
   color: #e7e7e7;
@@ -64,6 +62,7 @@ header .menu div a:hover {
   color: #7b2faf;
 }
 .card {
+  margin-left: 10%;
   position: absolute;
 }
 .card .card-item {
@@ -74,7 +73,6 @@ header .menu div a:hover {
   border: 1px solid #803eb1;
 }
 .card .card-item img {
-  background: linear-gradient(to center, #803eb1);
   position: relative;
   width: 100%;
 }
@@ -97,6 +95,9 @@ footer .footer-nav .nav-item a {
 footer .footer-nav .nav-item img {
   height: 42px;
   width: 42px;
+}
+footer .footer-nav .nav-item h2 {
+  font-size: 1em;
 }
 footer .footer-nav .nav-item h2 a {
   font-size: 15pt ;
