@@ -61,37 +61,6 @@ header .menu div a:hover {
   background-color: #e7e7e7;
   color: #7b2faf;
 }
-.bye {
-  text-align: center;
-}
-.bye .order {
-  color: #7b2faf;
-  justify-content: center;
-}
-.bye .info {
-  text-align: left;
-}
-.bye p {
-  font-size: 1em;
-}
-.bye .imag {
-  border: 1px solid black;
-}
-.bye .imag img {
-  width: 100%;
-}
-.bye input {
-  width: 450px;
-  height: 80px;
-}
-.bye select {
-  height: 80px;
-}
-.bye button {
-  justify-content: center;
-  height: 50px;
-  background-color: #56d362;
-}
 footer {
   background-color: #caacf5;
 }
